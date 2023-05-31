@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background: linear-gradient(to bottom, #ff0000, #081f3a);
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    display:inline-flex;
+    background-color: darkslategrey;
+    box-sizing: border-box;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+
+}
+
+footer{
+    display: inline-block;
+    margin-bottom: 0px;
+    box-sizing: content-box;
+    align-items:stretch;
+    justify-content:center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+    text-align: center;
+    font: 'Lucida Grande';
+    font-weight:bolder;
+
+}
+
+p {
+    background-color: #ffffff;
+    color:brown;
+    text-align: left;
+    font: 'Lucida Sans Regular';
+
+}
+
+#user{
+    display: block;
+    background-color: none;
+
+}
+
+#duv{
+    display: block;
+    background-color: none;
+
+}
+
+.container {
+    background-image: url("imagens/plano\ de\ fundo.jpg");
+
+}
+
+.img-topo{
+    size: 10px auto;
+
+}
+
+.filme {
+    display: inline-flex;
+    cursor: pointer;
+
+}
+
+.container-detalhe {
+    display:block;
+
+}
+
+.link {
+    border-radius: 5%;
+    cursor: pointer;
+    text-decoration:none;
+    
+}
+
+.link:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.img-topo:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.img-roda:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.filme:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
